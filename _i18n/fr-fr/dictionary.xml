@@ -268,7 +268,6 @@ Paires HAUTE DISPONIBILITÉ : 18 dans un nœud ^1^</block>
   <block id="cee631121c2ec9232f3a2f028ad5c89b" category="cell">500</block>
   <block id="9dba50d3a2c2f26daddbf9d144c49772" category="cell">Taille minimale</block>
   <block id="e2fca4ed20d01d1eda8a934cf81cb194" category="cell">20 MO</block>
-  <block id="87338ad799bddd85c6298bb9270dc27f" category="cell">100 Tio</block>
   <block id="f870c45bb6c4b8bad8f13c8dc3439f98" category="cell">*Qtrees*</block>
   <block id="8032f0290a7c4e00a6da3a195523a94e" category="cell">Maximum par volume FlexVol</block>
   <block id="38de34e4b49b8adfeb2c678818915204" category="cell">4,995</block>
@@ -395,7 +394,6 @@ Paires HAUTE DISPONIBILITÉ : 18 dans un nœud ^1^</block>
   <block id="8e612b6b306f120390f4c3bd234f9ce8" category="cell">*BYOL sur nœud* ^3^</block>
   <block id="41a0b1e6c6d31716c7d7b603ce6a4936" category="section-title">Limites de stockage logique</block>
   <block id="302f571fec3e23b2236f116e51e46721" category="cell">Profondeur de clone hiérarchique ^12^</block>
-  <block id="309524b9e1ef1d7d7d905c7cb1d358e9" category="cell">100 TO</block>
   <block id="1de430b06ad7ac64cf016ffed9f4194b" category="section-title">Les paires haute disponibilité Cloud Volumes ONTAP ne prennent pas en charge le rétablissement immédiat du stockage</block>
   <block id="d69dddad3d38a1500a52e7e599cb94df" category="paragraph">Après le redémarrage d'un nœud, le partenaire doit synchroniser les données pour qu'il puisse renvoyer le système de stockage. Le temps nécessaire pour resynchroniser les données dépend de la quantité de données écrites par les clients alors que le nœud était en panne et de la vitesse d'écriture des données pendant le rétablissement.</block>
   <block id="7b9e5415e02ff7ad5eaae61345740517" category="inline-link">Découvrez le fonctionnement du stockage dans une paire haute disponibilité Cloud Volumes ONTAP exécutée dans Google Cloud</block>
@@ -722,4 +720,13 @@ Paires HAUTE DISPONIBILITÉ : 18 dans un nœud ^1^</block>
   <block id="5313a9ac102424f63dd4d76f5280130e" category="sidebar">Restrictions dans AWS</block>
   <block id="1fff298355326f8c77bd77059a41c1a2" category="sidebar">Restrictions dans Azure</block>
   <block id="9a3a0c4b2afbb088e029484d4b34ba8b" category="sidebar">Restrictions dans Google Cloud</block>
+  <block id="64063abe39aac990beb215f4e4df9f92" category="cell">Taille maximale ^2^</block>
+  <block id="d0bb632fcdb31cf3c729c1c59f826d4f" category="cell">128 TO</block>
+  <block id="95f8ab07e6196c13df81b9123cb42b19" category="cell">Taille maximale ^3^</block>
+  <block id="4dd4655034851cefb46869bef690cc22" category="cell">300 Tio</block>
+  <block id="ae809759e1518d5c4c2019b9c03f15a1" category="list-text">À partir de ONTAP 9.12.1P2, la limite est de 128 To. Dans ONTAP 9.11.1 et les versions antérieures, la limite est de 16 To.</block>
+  <block id="23631a3c0b249b8021bdc886f847e2ae" category="list-text">La création de volumes FlexVol jusqu'à une taille maximale de 300 Tio est prise en charge à l'aide des outils et des versions minimales suivants :</block>
+  <block id="5680c249ee040de9c43f982996ed2a24" category="list-text">System Manager et l'interface de ligne de commande ONTAP à partir de Cloud Volumes ONTAP 9.12.1 P2 et 9.13.0 P2</block>
+  <block id="68c68c70121e1d9364223bb9fded83b0" category="list-text">BlueXP depuis Cloud Volumes ONTAP 9.13.1</block>
+  <block id="ea8e9cb87ad8076ed2bdd562222045c8" category="cell">300 TO</block>
 </blocks>
