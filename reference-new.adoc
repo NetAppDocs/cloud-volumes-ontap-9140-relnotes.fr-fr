@@ -20,6 +20,18 @@ D'autres fonctionnalités et améliorations sont également introduites dans les
 
 
 
+== 9.14.0 P2 (1er avril 2024)
+
+Le correctif 9.14.0 P2 est désormais disponible pour Cloud Volumes ONTAP pour tous les fournisseurs cloud. Ce correctif est uniquement disponible pour la mise à niveau manuelle. Voir https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-cloud.html#upgrade-from-bluexp-notifications["Mise à niveau à partir d'une image disponible sur une URL"].
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.14.0P2["Consultez la liste des bogues corrigés dans le correctif P2"^] (Identifiant du site du support NetApp requis).
+
+Il s'agit du dernier correctif pour cette version. Nous vous recommandons de mettre à niveau Cloud Volumes ONTAP 9.14.0 vers la version 9.14.1.
+
+https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/index.html["Notes de mise à jour de Cloud Volumes ONTAP 9.14.1"^]
+
+
+
 == 9.14.0 P1 (10 novembre 2023)
 
 Le correctif 9.14.0 P1 est désormais disponible pour Cloud Volumes ONTAP pour tous les fournisseurs de cloud si vous disposez d'un connecteur exécutant la version 3.9.27 ou ultérieure. BlueXP vous invitera à mettre à niveau vos systèmes existants vers cette version de correctif.
