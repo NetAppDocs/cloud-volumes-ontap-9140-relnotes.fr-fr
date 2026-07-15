@@ -18,6 +18,7 @@ Azure prend en charge plusieurs configurations Cloud Volumes ONTAP.
 
 
 
+[[supported-configurations-by-license]]
 == Configurations prises en charge par licence
 
 Cloud Volumes ONTAP est disponible dans Azure en tant que système à un seul nœud et en tant que paire de nœuds haute disponibilité pour la tolérance aux pannes et la continuité de l'activité.
@@ -26,6 +27,7 @@ La mise à niveau d'un système à un seul nœud vers une paire haute disponibil
 
 
 
+[[single-node-systems]]
 === Systèmes à un seul nœud
 
 Lors du déploiement de Cloud Volumes ONTAP en tant que système à un seul nœud dans Azure, vous pouvez choisir l'une des configurations suivantes :
@@ -152,6 +154,7 @@ Inversement, si vous avez déployé Cloud Volumes ONTAP à l'aide d'un autre typ
 
 
 
+[[ha-pairs]]
 === Paires HA
 
 Lors du déploiement de Cloud Volumes ONTAP en tant que paire HA dans Azure, vous pouvez choisir l'une des configurations suivantes.
@@ -308,12 +311,14 @@ Remarques :
 
 
 
+[[supported-disk-sizes]]
 == Tailles de disque prises en charge
 
 Dans Azure, un agrégat peut contenir jusqu'à 12 disques de même type et de même taille.
 
 
 
+[[single-node-systems]]
 === Systèmes à un seul nœud
 
 Les systèmes à un seul nœud utilisent des disques gérés Azure. Les tailles de disque suivantes sont prises en charge :
@@ -356,6 +361,7 @@ Les systèmes à un seul nœud utilisent des disques gérés Azure. Les tailles 
 |===
 
 
+[[ha-pairs]]
 === Paires HA
 
 Les paires HAUTE DISPONIBILITÉ utilisent des disques gérés Azure. Les types et tailles de disques suivants sont pris en charge.
